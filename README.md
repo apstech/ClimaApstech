@@ -1,2 +1,0 @@
-# ClimaApstech
-Created with CodeSandbox
