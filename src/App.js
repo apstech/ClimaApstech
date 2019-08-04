@@ -1,15 +1,22 @@
-import React, { useState, useEffect } from "react";
-import Header from "./Header";
-import Consulta from "./Consulta";
-import axios from "axios";
+import React from 'react';
+import  Header from './Header'
+import  Consulta from './Consulta'
+
+import {
+  BrowserRouter as Router
+} from 'react-router-dom'
 
 function App() {
+
   return (
-    <div>
+    <Router>
+      <div>
       <Header />
+      
       <Consulta />
-    </div>
-  );
+      </div>
+    </Router>
+  )
 }
 
 export default App;
